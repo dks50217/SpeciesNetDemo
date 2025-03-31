@@ -67,11 +67,17 @@
       const ctx = canvas.getContext('2d');
       container.appendChild(canvas);
 
+      const parts = prediction.prediction.split(';');
+      const classificationOnly = parts.slice(1);
+      const label = classificationOnly.pop();
+      const scaleFactor = 0.2;
+
       const img = new Image();
       img.onload = function () {
-        canvas.width = img.width;
-        canvas.height = img.height;
-        ctx.drawImage(img, 0, 0);
+        
+        canvas.width = img.width * scaleFactor;
+        canvas.height = img.height * scaleFactor;
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
         const detections = prediction.detections || [];
 
@@ -79,19 +85,20 @@
 
         detections.forEach(det => {
           const [xmin, ymin, width, height] = det.bbox;
-          const label = det.label;
+          //const label = det.label;
           const conf = det.conf;
 
-          const x = xmin * img.width;
-          const y = ymin * img.height;
-          const w = width * img.width;
-          const h = height * img.height;
+          const x = xmin * img.width * scaleFactor;
+          const y = ymin * img.height * scaleFactor;
+          const w = width * img.width * scaleFactor;
+          const h = height * img.height * scaleFactor;
 
           const alpha = Math.max(conf, 0.1);
           const color = getColor(label, alpha);
 
           // 畫框
-          ctx.lineWidth = 10;
+          ctx.lineWidth = 8;
+          ctx.font = "bold 200px sans-serif";
           ctx.strokeStyle = color;
           ctx.strokeRect(x, y, w, h);
 

@@ -1,0 +1,36 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment files
+.env
+.venv/
+*.env
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Output and temporary files
+output/
+*.tmp.*
+output.tmp.*
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and debug files
+*.log
+*.bak
+*.swp
+
+# Compiled files
+*.so
+*.dll
+*.exe
+
+# Ignore organized images folder
+organized_images/

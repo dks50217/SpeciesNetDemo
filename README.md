@@ -44,6 +44,10 @@ conda activate speciesnet
 cd SpeciesNetDemo
 ```
 
+6. 安裝套件
+```bash
+pip install speciesnet
+```
 
 ## 使用方式
 
