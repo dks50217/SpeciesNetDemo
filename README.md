@@ -64,14 +64,3 @@ python -m speciesnet.scripts.run_model --folders "image" --predictions_json "out
 
 - 確保 `output/result.json` 的路徑正確，並包含模型的預測結果。
 - 預測結果的格式需符合 `speciesnet-muti.html` 中的解析邏輯。
-
-## 範例結果
-
-以下是一個範例結果的展示：
-
-- **主要預測**：Northern Bobwhite  
-- **信心分數**：0.6563  
-- **來源**：Classifier  
-- **模型版本**：4.0.0a  
-
-分類結果表格與檢測框會在`speciesnet-muti.html`網頁中以圖形化方式呈現。
