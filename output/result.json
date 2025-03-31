@@ -1,0 +1,456 @@
+{
+    "predictions": [
+        {
+            "filepath": "image/african_elephants_cmyk.jpg",
+            "classifications": {
+                "classes": [
+                    "55631055-3e0e-4b7a-9612-dedebe9f78b0;mammalia;proboscidea;elephantidae;loxodonta;africana;african elephant",
+                    "dc5dbe17-a8ca-40a6-ac6a-3b6b1d63e6d6;mammalia;cetartiodactyla;bovidae;eudorcas;thomsonii;thomson's gazelle",
+                    "8c48ed75-e275-4188-a6b1-55929d298e85;mammalia;cetartiodactyla;bovidae;nanger;granti;grant's gazelle",
+                    "9732cefb-6a08-49f6-b61e-b9a9054368c4;mammalia;cetartiodactyla;bovidae;syncerus;caffer;african buffalo",
+                    "ccd7d6d7-8eb2-4fdb-a6d6-f1970847e449;mammalia;cetartiodactyla;suidae;phacochoerus;africanus;common warthog"
+                ],
+                "scores": [
+                    0.9913240671157837,
+                    0.0011447251308709383,
+                    0.0009787945309653878,
+                    0.0005744106601923704,
+                    0.0004455279849935323
+                ]
+            },
+            "detections": [
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.9349077343940735,
+                    "bbox": [
+                        0.7041015625,
+                        0.4765625,
+                        0.11083984375,
+                        0.125
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.914623498916626,
+                    "bbox": [
+                        0.564453125,
+                        0.4218750223517418,
+                        0.0849609375,
+                        0.1673177033662796
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.9032467603683472,
+                    "bbox": [
+                        0.82958984375,
+                        0.5110677070915699,
+                        0.10400390625,
+                        0.1106770858168602
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.8156577348709106,
+                    "bbox": [
+                        0.94189453125,
+                        0.4674479365348816,
+                        0.05810546875,
+                        0.16796875
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.706810474395752,
+                    "bbox": [
+                        0.85400390625,
+                        0.4785156063735485,
+                        0.0859375,
+                        0.0826822891831398
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.6370289325714111,
+                    "bbox": [
+                        0.34033203125,
+                        0.4433593638241291,
+                        0.08349609375,
+                        0.0911458358168602
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.15641345083713531,
+                    "bbox": [
+                        0.10107421875,
+                        0.4055989496409893,
+                        0.1123046875,
+                        0.1100260391831398
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.08419444411993027,
+                    "bbox": [
+                        0.32080078125,
+                        0.4147135317325592,
+                        0.07177734375,
+                        0.115234375
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.06677225232124329,
+                    "bbox": [
+                        0.376953125,
+                        0.4440104253590107,
+                        0.046875,
+                        0.0716145858168602
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.05441818758845329,
+                    "bbox": [
+                        0.14501953125,
+                        0.4082031361758709,
+                        0.0712890625,
+                        0.0768229141831398
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.04151078686118126,
+                    "bbox": [
+                        0.64111328125,
+                        0.42968750931322575,
+                        0.056640625,
+                        0.0533854179084301
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.022199144586920738,
+                    "bbox": [
+                        0.31982421875,
+                        0.41276042722165585,
+                        0.05126953125,
+                        0.0559895820915699
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.012031237594783306,
+                    "bbox": [
+                        0.14208984375,
+                        0.4082031361758709,
+                        0.103515625,
+                        0.1217447891831398
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.01042912621051073,
+                    "bbox": [
+                        0.638671875,
+                        0.42317708395421505,
+                        0.02783203125,
+                        0.0345052070915699
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.010109182447195053,
+                    "bbox": [
+                        0.48583984375,
+                        0.4466145932674408,
+                        0.04443359375,
+                        0.099609375
+                    ]
+                }
+            ],
+            "prediction": "55631055-3e0e-4b7a-9612-dedebe9f78b0;mammalia;proboscidea;elephantidae;loxodonta;africana;african elephant",
+            "prediction_score": 0.9913240671157837,
+            "prediction_source": "classifier",
+            "model_version": "4.0.0a"
+        },
+        {
+            "filepath": "image/african_elephants_with_exif_orientation.jpg",
+            "classifications": {
+                "classes": [
+                    "55631055-3e0e-4b7a-9612-dedebe9f78b0;mammalia;proboscidea;elephantidae;loxodonta;africana;african elephant",
+                    "dc5dbe17-a8ca-40a6-ac6a-3b6b1d63e6d6;mammalia;cetartiodactyla;bovidae;eudorcas;thomsonii;thomson's gazelle",
+                    "8c48ed75-e275-4188-a6b1-55929d298e85;mammalia;cetartiodactyla;bovidae;nanger;granti;grant's gazelle",
+                    "9732cefb-6a08-49f6-b61e-b9a9054368c4;mammalia;cetartiodactyla;bovidae;syncerus;caffer;african buffalo",
+                    "ccd7d6d7-8eb2-4fdb-a6d6-f1970847e449;mammalia;cetartiodactyla;suidae;phacochoerus;africanus;common warthog"
+                ],
+                "scores": [
+                    0.9909336566925049,
+                    0.0009893259266391397,
+                    0.0008831925806589425,
+                    0.0007710670470260084,
+                    0.000567438721191138
+                ]
+            },
+            "detections": [
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.9343305826187134,
+                    "bbox": [
+                        0.7041015625,
+                        0.4765625,
+                        0.11083984375,
+                        0.125
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.9125999808311462,
+                    "bbox": [
+                        0.564453125,
+                        0.4218750223517418,
+                        0.0849609375,
+                        0.1673177033662796
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.9037951827049255,
+                    "bbox": [
+                        0.82958984375,
+                        0.5110677070915699,
+                        0.10400390625,
+                        0.1106770858168602
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.8158440589904785,
+                    "bbox": [
+                        0.94189453125,
+                        0.4674478992819786,
+                        0.05810546875,
+                        0.1673177033662796
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.6980797052383423,
+                    "bbox": [
+                        0.85400390625,
+                        0.4785156063735485,
+                        0.0859375,
+                        0.0826822891831398
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.6501412987709045,
+                    "bbox": [
+                        0.33984375,
+                        0.443359375,
+                        0.083984375,
+                        0.091796875
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.14668269455432892,
+                    "bbox": [
+                        0.10302734375,
+                        0.4062500111758709,
+                        0.111328125,
+                        0.1080729141831398
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.07147242873907089,
+                    "bbox": [
+                        0.32080078125,
+                        0.4147135317325592,
+                        0.07275390625,
+                        0.115234375
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.055827345699071884,
+                    "bbox": [
+                        0.14501953125,
+                        0.408203125,
+                        0.072265625,
+                        0.078125
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.055666837841272354,
+                    "bbox": [
+                        0.376953125,
+                        0.4440104179084301,
+                        0.046875,
+                        0.0709635391831398
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.051414623856544495,
+                    "bbox": [
+                        0.64111328125,
+                        0.4296875,
+                        0.056640625,
+                        0.052734375
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.02009423077106476,
+                    "bbox": [
+                        0.31982421875,
+                        0.41276041604578495,
+                        0.05126953125,
+                        0.0553385429084301
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.014712476171553135,
+                    "bbox": [
+                        0.638671875,
+                        0.42317707277834415,
+                        0.02685546875,
+                        0.0338541679084301
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.012786309234797955,
+                    "bbox": [
+                        0.1435546875,
+                        0.407552070915699,
+                        0.11474609375,
+                        0.1256510466337204
+                    ]
+                }
+            ],
+            "prediction": "55631055-3e0e-4b7a-9612-dedebe9f78b0;mammalia;proboscidea;elephantidae;loxodonta;africana;african elephant",
+            "prediction_score": 0.9909336566925049,
+            "prediction_source": "classifier",
+            "model_version": "4.0.0a"
+        },
+        {
+            "filepath": "image/american_black_bear.jpg",
+            "classifications": {
+                "classes": [
+                    "436ddfdd-bc43-44c3-a25d-34671d3430a0;mammalia;carnivora;ursidae;ursus;americanus;american black bear",
+                    "febff896-db40-4ac8-bcfe-5bb99a600950;mammalia;cetartiodactyla;cervidae;odocoileus;hemionus;mule deer",
+                    "5c7ce479-8a45-40b3-ae21-7c97dfae22f5;mammalia;cetartiodactyla;cervidae;odocoileus;virginianus;white-tailed deer",
+                    "eb3829b0-772e-4088-ae90-f11b9fe38284;mammalia;cetartiodactyla;cervidae;cervus;elaphus;red deer",
+                    "330bb1e9-84d6-4e41-afa9-938aee17ea29;mammalia;carnivora;ursidae;ursus;arctos;brown bear"
+                ],
+                "scores": [
+                    0.9895798563957214,
+                    0.003979037050157785,
+                    0.0037781514693051577,
+                    0.0007601650431752205,
+                    0.0005046064616180956
+                ]
+            },
+            "detections": [
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.9598512053489685,
+                    "bbox": [
+                        0.43310546875,
+                        0.4283854365348816,
+                        0.3232421875,
+                        0.322265625
+                    ]
+                }
+            ],
+            "prediction": "436ddfdd-bc43-44c3-a25d-34671d3430a0;mammalia;carnivora;ursidae;ursus;americanus;american black bear",
+            "prediction_score": 0.9895798563957214,
+            "prediction_source": "classifier",
+            "model_version": "4.0.0a"
+        },
+        {
+            "filepath": "image/domestic_dog.jpg",
+            "classifications": {
+                "classes": [
+                    "3d80f1d6-b1df-4966-9ff4-94053c7a902a;mammalia;carnivora;canidae;canis;familiaris;domestic dog",
+                    "990ae9dd-7a59-4344-afcb-1b7b21368000;mammalia;primates;hominidae;homo;sapiens;human",
+                    "36b9abce-005b-439a-858f-1660e5027ccb;mammalia;chordata;canidae;canis;lupus dingo;dingo",
+                    "febff896-db40-4ac8-bcfe-5bb99a600950;mammalia;cetartiodactyla;cervidae;odocoileus;hemionus;mule deer",
+                    "d3d5325f-b055-4925-b875-5cd28af54215;mammalia;carnivora;canidae;canis;;canis species"
+                ],
+                "scores": [
+                    0.9993671774864197,
+                    0.00022000097669661045,
+                    0.00018760199600365013,
+                    3.684067996800877e-05,
+                    2.655380012583919e-05
+                ]
+            },
+            "detections": [
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.9294812679290771,
+                    "bbox": [
+                        0.23779296875,
+                        0.083984375,
+                        0.51611328125,
+                        0.6497395634651184
+                    ]
+                },
+                {
+                    "category": "1",
+                    "label": "animal",
+                    "conf": 0.013745013624429703,
+                    "bbox": [
+                        0.240234375,
+                        0.3092447817325592,
+                        0.2548828125,
+                        0.2109375
+                    ]
+                }
+            ],
+            "prediction": "3d80f1d6-b1df-4966-9ff4-94053c7a902a;mammalia;carnivora;canidae;canis;familiaris;domestic dog",
+            "prediction_score": 0.9993671774864197,
+            "prediction_source": "classifier",
+            "model_version": "4.0.0a"
+        }
+    ]
+}
