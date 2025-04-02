@@ -86,10 +86,10 @@ python -m speciesnet.scripts.run_model --folders "image" --predictions_json "out
 
 ## 輔助功能 - 裁剪
 
-1. 呼叫 `cropped.py` 裁剪圖片後另存
+1. 呼叫 `main.py` 裁剪圖片後另存
 
 ```bash
-python cropped.py
+python main.py
 ```
 
 2. 裁剪後圖片會存入 cropped_images 中
