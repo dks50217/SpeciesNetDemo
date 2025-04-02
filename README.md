@@ -49,6 +49,18 @@ cd SpeciesNetDemo
 pip install speciesnet
 ```
 
+## 或以docker容器方式
+
+```bash
+docker run -it my-speciesnet
+```
+
+```bash
+docker compose up -d
+```
+
+> http://localhost:12345
+
 ## 使用方式
 
 1. **準備圖片**  
@@ -64,7 +76,19 @@ python -m speciesnet.scripts.run_model --folders "image" --predictions_json "out
 3. **查看結果**  
    打開 `speciesnet-muti.html`，即可在瀏覽器中查看預測結果，包括分類與檢測資訊。
 
+## 輔助功能 - 裁剪
+
+1. 呼叫 `cropped.py` 裁剪圖片後另存
+
+```bash
+python cropped.py
+```
+
+2. 裁剪後圖片會存入 cropped_images 中
+
+
 ## 注意事項
 
 - 確保 `output/result.json` 的路徑正確，並包含模型的預測結果。
 - 預測結果的格式需符合 `speciesnet-muti.html` 中的解析邏輯。
+

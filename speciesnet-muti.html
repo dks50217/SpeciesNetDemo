@@ -49,11 +49,29 @@
       });
   };
 
+  const mainLabelAliasMap = {
+    "reeves' muntjac": "山羌",
+    "white-tailed deer": "白尾鹿",
+    "cervidae family": "鹿科",
+    "large-antlered muntjac": "大角山羌",
+    "muntjac species": "山羌屬"
+  };
+
+  // 傳回別名的函式
+  function getAliasForMainLabel(mainLabel) {
+    return mainLabelAliasMap[mainLabel] || mainLabel;
+  }
+
+
   function renderPredictions(data) {
     
     const output = document.getElementById('output');
     output.innerHTML = '';
+
+    
+
     const predictions = data.predictions;
+    
 
     predictions.forEach((prediction, idx) => {
       const container = document.createElement('div');
@@ -125,7 +143,8 @@
 
       const predText = document.createElement('p');
       const mainLabel = prediction.prediction.split(';').pop();
-      predText.innerHTML = `<strong>預測：</strong> ${mainLabel}<br>
+      const alias = getAliasForMainLabel(mainLabel);
+      predText.innerHTML = `<strong>預測：</strong> ${alias}<br>
                             <strong>信心分數：</strong> ${prediction.prediction_score.toFixed(4)}<br>
                             <strong>來源：</strong> ${prediction.prediction_source}<br>
                             <strong>模型版本：</strong> ${prediction.model_version}`;
@@ -146,6 +165,11 @@
         const row = document.createElement('tr');
         const label = cls.split(';').slice(1).join(' > ');
         const score = prediction.classifications.scores[index].toFixed(4);
+
+        if (parseFloat(score) > 0.8) {
+          row.style.backgroundColor = 'yellow';
+        }
+
         row.innerHTML = `<td>${label}</td><td>${score}</td>`;
         tbody.appendChild(row);
       });

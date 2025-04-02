@@ -1,0 +1,6 @@
+image/
+output/
+cropped_images/
+output.tmp*
+dockerfile
+.dockerignore
