@@ -19,8 +19,8 @@ class Ctr_Image:
         self.config.read(self.config_path, encoding="utf-8")
 
         self.json_file_path = self.config['system']['source_path']
-        self.output_folder = "cropped_images"
-
+        self.output_folder = self.config['system']['out_path']
+        
         os.makedirs(self.output_folder, exist_ok=True)
 
     def crop_images(self):

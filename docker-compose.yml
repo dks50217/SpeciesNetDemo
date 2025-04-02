@@ -10,6 +10,5 @@ services:
       - ./image:/app/image
       - ./output:/app/output
       - ./cropped_images:/app/cropped_images
-      - ./speciesnet-muti.html:/app/index.html
     restart: unless-stopped
     command: ["python", "-m", "http.server", "80", "--directory", "/app"]

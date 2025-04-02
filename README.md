@@ -82,7 +82,7 @@ python -m speciesnet.scripts.run_model --folders "image" --predictions_json "out
 ```
 
 3. **查看結果**  
-   打開 `speciesnet-muti.html`，即可在瀏覽器中查看預測結果，包括分類與檢測資訊。
+   打開 `index.html`，即可在瀏覽器中查看預測結果，包括分類與檢測資訊。
 
 ## 輔助功能 - 裁剪
 
