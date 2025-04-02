@@ -51,6 +51,12 @@ pip install speciesnet
 
 ## 或以docker容器方式
 
+* docker build image
+```bash
+docker build -t my-speciesnet .
+```
+
+* docker run or docker compose
 ```bash
 docker run -it my-speciesnet
 ```
@@ -58,6 +64,8 @@ docker run -it my-speciesnet
 ```bash
 docker compose up -d
 ```
+
+* browser 
 
 > http://localhost:12345
 
